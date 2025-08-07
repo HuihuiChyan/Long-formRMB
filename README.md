@@ -8,7 +8,7 @@ Long-formRMB is a comprehensive benchmark designed to evaluate the performance o
 
 ## LeaderBoard
 
-<img src="images/leaderboard.png" alt="A beautiful sunset" width="500">
+<img src="images/leaderboard.png" alt="A beautiful sunset" width="750">
 
 ## Running the Evaluation
 
