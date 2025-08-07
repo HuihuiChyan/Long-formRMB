@@ -582,13 +582,9 @@ if __name__ == "__main__":
 
     http_client = httpx.Client(timeout=60.0)
 
+    API_KEY = os.getenv('OPENAI_API_KEY')
+    client = openai.OpenAI(api_key=API_KEY, base_url="https://api.shubiaobiao.cn/v1", http_client=http_client)
 
-    # API_KEY = os.getenv('OPENAI_API_KEY', 'sk-agEcX3Su78Bu09c2F49978C6Ba424977B936C8710fAb42E0')
-    # client = openai.OpenAI(api_key=API_KEY, base_url="https://api.shubiaobiao.cn/v1", http_client=http_client)
-
-    API_KEY = os.getenv('OPENAI_API_KEY', '9d0f097eae5d256de297859404694af7')
-    client = openai.OpenAI(api_key=API_KEY, base_url="https://idealab.alibaba-inc.com/api/openai/v1")
-   
     # Run the inference
     run_inference_and_output_scores(
         input_file=args.input_file,
