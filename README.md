@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is the anonymous github repository for AAAI2026 submission: Long-form RewardBench: Evaluating Reward Models for Long-form Generation
+This is the github repository for AAAI2026 paper: Long-form RewardBench: Evaluating Reward Models for Long-form Generation
 
 Long-formRMB is a comprehensive benchmark designed to evaluate the performance of reward models in generating long-form content. This repository contains scripts and models for assessing various aspects of AI-generated responses.
 
